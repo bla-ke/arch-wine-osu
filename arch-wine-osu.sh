@@ -121,7 +121,7 @@ EOF
 
     sleep 2
 
-    sudo pacman -S wine wine_gecko wine-mono
+    sudo pacman -S wine winetricks wine_gecko wine-mono lib32-alsa-lib lib32-gnutls
 
     sleep 1
 
@@ -448,7 +448,7 @@ echo ""
 
 sleep 2
 
-sudo pacman -S wine wine_gecko wine-mono
+sudo pacman -S sudo pacman -S wine winetricks wine_gecko wine-mono lib32-alsa-lib lib32-gnutls
 
 sleep 1
 

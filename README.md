@@ -2,6 +2,11 @@
 ## Description
 Install osu! on Arch Linux! arch-wine-osu is an easy-to-use script that will give you a possibility to install this popular rythm music game.
 
+## Giving permissions to run this script
+```
+chmod +x /path/to/script.sh
+```
+
 ## Editing /etc/pacman.conf file
 To install packages, you need to uncomment lines with multilib repository. You can easily do it manually:
 ```
@@ -30,7 +35,12 @@ env WINEARCH=win32 WINEPREFIX=~/'Wine Prefixes/osu!' wine '/home/'$USER'/Wine Pr
 ## Opis
 Zainstaluj osu! na systemie Arch Linux! Ten łatwy w użytkowaniu skrypt pozwoli Ci na bezproblemową instalację gry.
 
-## Editing /etc/pacman.conf file
+## Nadanie uprawnień do uruchamiania jako program
+```
+chmod +x /ścieżka/do/skryptu.sh
+```
+
+## Edycja pliku /etc/pacman.conf
 Aby zainstalować wymagane pakiety, musisz odkomentować poszczególne wiersze w pliku /etc/pacman.conf. Możesz to zrobić własnoręcznie za pomocą komendy:
 ```
 sudo nano /etc/pacman.conf

@@ -25,6 +25,7 @@ env WINEARCH=win32 WINEPREFIX=~/'Wine Prefixes/osu!' wine '/home/'$USER'/Wine Pr
 - Your password is needed to install required packages;
 - This script should go properly with Manjaro, but check it before executing.
 
+
 # Polski (pl)
 ## Opis
 Zainstaluj osu! na systemie Arch Linux! Ten łatwy w użytkowaniu skrypt pozwoli Ci na bezproblemową instalację gry.
